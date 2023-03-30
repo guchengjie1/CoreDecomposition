@@ -74,6 +74,8 @@ public class test {
             }
         }
 
+        System.out.println("这是我在测试github的更新");
+
 
     }
 
