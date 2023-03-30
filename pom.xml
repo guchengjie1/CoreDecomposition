@@ -16,6 +16,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>CoreDecom</finalName>
     </build>
     <packaging>jar</packaging>
 

@@ -9,12 +9,13 @@ import java.util.Set;
 //读入数据文件
 public class DataReader {
     private String graphFile = null;
+    Map<Integer, Set<Integer>> pmap = null;
     public DataReader(String graphFile) {
         this.graphFile = graphFile;
     }
 
     public Map<Integer, Set<Integer>> readGraph() {
-        Map<Integer, Set<Integer>> pmap = new HashMap<>();
+        pmap = new HashMap<>();
         try {
             BufferedReader stdin = new BufferedReader(new FileReader(graphFile));
 
